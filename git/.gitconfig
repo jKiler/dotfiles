@@ -1,0 +1,22 @@
+[user]
+	name = Jerzy Kwiatkowski (jekwiatk)
+	email = jakwiatkowski@gmail.com
+[core]
+	pager = delta
+[alias]
+	br = branch
+	c = commit
+	ca = commit --amend
+	can = commit --amend --no-edit
+	cm = commit -m
+	co = checkout
+	develop = checkout develop
+	ra = rebase --abort
+	rc = rebase --continue
+	st = status
+[delta]
+	line-numbers = true
+[diff]
+	colorMoved = default
+[rerere]
+	enabled = true

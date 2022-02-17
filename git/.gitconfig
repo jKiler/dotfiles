@@ -13,6 +13,8 @@
 	develop = checkout develop
 	ra = rebase --abort
 	rc = rebase --continue
+	ri = rebase -i
+	rih = "!f() { git rebase -i HEAD~$1; }; f"
 	st = status
 [delta]
 	line-numbers = true

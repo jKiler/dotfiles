@@ -1,6 +1,3 @@
-[user]
-	name = Jerzy Kwiatkowski (jekwiatk)
-	email = jakwiatkowski@gmail.com
 [core]
 	pager = delta
 [alias]
@@ -23,3 +20,7 @@
 	colorMoved = default
 [rerere]
 	enabled = true
+[includeIf "gitdir:~/code/personal/"]
+    path = .gitconfig-personal
+[includeIf "gitdir:~/code/work/"]
+    path = .gitconfig-work

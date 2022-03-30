@@ -15,6 +15,7 @@
 	rc = rebase --continue
 	ri = rebase -i
 	rih = "!f() { git rebase -i HEAD~$1; }; f"
+	sm = stash push -m
 	st = status
 [delta]
 	line-numbers = true

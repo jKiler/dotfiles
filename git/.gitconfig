@@ -21,6 +21,6 @@
 [rerere]
 	enabled = true
 [includeIf "gitdir:~/code/personal/"]
-    path = .gitconfig-personal
+    path = personal.inc
 [includeIf "gitdir:~/code/work/"]
-    path = .gitconfig-work
+    path = work.inc

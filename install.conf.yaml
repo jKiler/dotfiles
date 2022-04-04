@@ -3,11 +3,14 @@
       create: true
       relink: true
 - create:
-    ~/.ssh:
-      mode: 0700
+    - ~/.ssh:
+        mode: 0700
+    - ~/code/personal
 - clean: []
 - link:
     ~/.ssh/config: ssh/.ssh/config
+    ~/.gitconfig: git/.gitconfig
+    ~/personal.inc: git/personal.inc
 - shell:
   -
     command: ssh-keygen -K

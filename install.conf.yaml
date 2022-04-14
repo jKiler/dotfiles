@@ -5,7 +5,8 @@
 - create:
     - ~/.ssh:
         mode: 0700
-    - ~/code/personal
+    - ~/code/personal/
+    - ~/code/work/
 - clean: []
 - link:
     ~/.ssh/config: ssh/.ssh/config

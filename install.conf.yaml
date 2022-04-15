@@ -8,7 +8,7 @@
     - ~/.ssh/config.d/
     - ~/code/personal/
     - ~/code/work/
-- clean: []
+- clean: ['~']
 - link:
     ~/.ssh/config: ssh/.ssh/config
     ~/.gitconfig: git/.gitconfig

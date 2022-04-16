@@ -1,5 +1,7 @@
 [core]
 	pager = delta
+[fetch]
+	prune = true
 [alias]
 	br = branch
 	c = commit

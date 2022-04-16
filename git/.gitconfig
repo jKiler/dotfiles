@@ -8,8 +8,11 @@
 	cm = commit -m
 	co = checkout
 	develop = checkout develop
+	l = log --oneline -20
+	ll = "log --date=human --format='%C(auto)%h%d%n%Cblue[%<(20,trunc)%an]%Creset %Cgreen[%<(12,trunc)%ar]%Creset %<(130,trunc)%s'"
 	ra = rebase --abort
 	rc = rebase --continue
+	rhu = reset --hard @{u}
 	ri = rebase -i
 	rih = "!f() { git rebase -i HEAD~$1; }; f"
 	sm = stash push -m
@@ -21,6 +24,6 @@
 [rerere]
 	enabled = true
 [includeIf "gitdir:~/code/personal/"]
-    path = personal.inc
+	path = personal.inc
 [includeIf "gitdir:~/code/work/"]
-    path = work.inc
+	path = work.inc

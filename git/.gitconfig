@@ -3,6 +3,7 @@
 [fetch]
 	prune = true
 [alias]
+	au = add --update
 	br = branch
 	c = commit
 	ca = commit --amend

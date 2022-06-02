@@ -11,6 +11,8 @@
 	cm = commit -m
 	co = checkout
 	develop = checkout develop
+	dh = diff HEAD
+	dhh = diff HEAD^ HEAD
 	l = log --oneline -20
 	ll = "!f() { COLS=$(tput cols); git log --date=human --format=\"%C(auto)%h%<($((COLS-8)),trunc)%d%n%Cgreen%<(12,trunc)%ar%Creset %Cblue%<(20,trunc)%an%Creset %<($((COLS-34)),trunc)%s\" $1; }; f"
 	ra = rebase --abort

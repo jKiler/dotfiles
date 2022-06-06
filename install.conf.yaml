@@ -10,7 +10,7 @@
     ~/code/work/:
 - clean: ['~']
 - link:
-    ~/.ssh/config: ssh/.ssh/config
+    ~/.ssh/config: ssh/config
     ~/.gitconfig: git/.gitconfig
     ~/.personal.inc: git/.personal.inc
     ~/.zshrc: zsh/.zshrc

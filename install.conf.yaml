@@ -15,6 +15,7 @@
     ~/.personal.inc: git/.personal.inc
     ~/.zshrc: zsh/.zshrc
     ~/.zshenv: zsh/.zshenv
+    ~/.zsh/configs: zsh/configs
 - shell:
   -
     command: ssh-keygen -K

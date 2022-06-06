@@ -12,9 +12,9 @@ source ~/.zsh_plugins.sh
 #-------------------------------------------------------------------------------
 #  Source config files
 #-------------------------------------------------------------------------------
-#for zsh_source in $HOME/.zsh/configs/*.zsh; do
-#  source $zsh_source
-#done
+for zsh_source in $HOME/.zsh/configs/*.zsh; do
+  source $zsh_source
+done
 source ~/.work.zsh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.

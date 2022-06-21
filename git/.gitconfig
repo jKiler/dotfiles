@@ -7,7 +7,7 @@
 	br = branch
 	c = commit
 	ca = commit --amend
-	can = commit --amend --no-edit
+	can = commit --amend --no-edit --date "now"
 	cm = commit -m
 	co = checkout
 	develop = checkout develop

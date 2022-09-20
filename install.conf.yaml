@@ -16,6 +16,7 @@
     ~/.zshrc: zsh/.zshrc
     ~/.zshenv: zsh/.zshenv
     ~/.zsh/configs: zsh/configs
+    /usr/local/bin/code: bin/code
 - shell:
   -
     command: ssh-keygen -K

@@ -1,0 +1,8 @@
+Host code.company.com
+  HostName code.company.com
+  IdentityFile ~/.ssh/id_rsa_stash
+  IdentitiesOnly yes
+  Port 7999
+#  LogLevel DEBUG
+HostKeyAlgorithms ssh-rsa
+PubkeyAcceptedKeyTypes ssh-rsa

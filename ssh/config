@@ -4,18 +4,8 @@ Host github.com
  # generated with ssh-keygen -t ed25519-sk -O resident -O application=ssh:github
  IdentityFile ~/.ssh/id_ed25519_sk_rk_github
  IdentitiesOnly yes
-Host k3s-1
- HostName k3s-1
- User admin
- IdentityFile ~/.ssh/id_ed25519_sk_rk_k3s
- IdentitiesOnly yes
-Host k3s-2
- HostName k3s-2
- User admin
- IdentityFile ~/.ssh/id_ed25519_sk_rk_k3s
- IdentitiesOnly yes
-Host k3s-3
- HostName k3s-3
+Host k3s-1 k3s-2 k3s-3
+ HostName %h.local
  User admin
  IdentityFile ~/.ssh/id_ed25519_sk_rk_k3s
  IdentitiesOnly yes

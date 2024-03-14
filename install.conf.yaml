@@ -20,6 +20,7 @@
     /usr/local/bin/code: bin/code
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
+  - [git remote set-url origin git@github.com:jKiler/dotfiles.git, Setting ssh remote url]
   -
     command: ssh-keygen -K
     stdin: true

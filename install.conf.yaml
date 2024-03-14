@@ -19,6 +19,7 @@
     ~/.zsh/plugins: zsh/plugins
     /usr/local/bin/code: bin/code
 - shell:
+  - [git submodule update --init --recursive, Installing submodules]
   -
     command: ssh-keygen -K
     stdin: true

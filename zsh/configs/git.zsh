@@ -12,7 +12,7 @@ function convc {
 
   local branch=$(git rev-parse --abbrev-ref HEAD)
   if [[ $branch =~ ([A-Z]+-[0-9]+) ]]; then
-    m+="${BASH_REMATCH[1]} "
+    m+="${match[1]} "
   fi
 
   m+="$2"

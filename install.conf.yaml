@@ -8,6 +8,7 @@
     ~/.ssh/config.d/:
     ~/code/personal/:
     ~/code/work/:
+    ~/bin:
 - clean: ['~']
 - link:
     ~/.ssh/config: ssh/config
@@ -17,7 +18,8 @@
     ~/.zshenv: zsh/.zshenv
     ~/.zsh/configs: zsh/configs
     ~/.zsh/plugins: zsh/plugins
-    /usr/local/bin/code: bin/code
+    ~/bin/code: bin/code
+    ~/bin/coffee: bin/coffee
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
   - [git remote set-url origin git@github.com:jKiler/dotfiles.git, Setting ssh remote url]

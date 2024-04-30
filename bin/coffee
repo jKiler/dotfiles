@@ -1,0 +1,7 @@
+#!/bin/sh
+
+caffeinate -d &
+caffeinate_pid=$!
+trap "kill $caffeinate_pid; echo $'\nFeeling refreshed and ready.'; exit" SIGINT
+echo "Pouring coffee..."
+while true; do osascript -e 'tell application "Microsoft Teams (work or school)" to activate'; osascript -e 'tell application "System Events" to keystroke "1" using {command down}'; echo "Taking a sip..."; sleep 300; done

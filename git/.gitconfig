@@ -8,6 +8,7 @@
 	c = commit
 	ca = commit --amend
 	can = commit --amend --no-edit --date "now"
+	ce = commit --allow-empty -m
 	cm = commit -m
 	co = checkout
 	develop = checkout develop

@@ -1,5 +1,5 @@
 alias ..='cd ..'
 alias c='clear'
-alias kcl='kubectl'
+alias k='kubectl'
 alias kcx='kubectx'
-alias kgp='kcl get pods'
+alias kgp='kubectl get pods'

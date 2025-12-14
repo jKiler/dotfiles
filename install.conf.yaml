@@ -9,6 +9,7 @@
     ~/code/personal/:
     ~/code/work/:
     ~/bin:
+    ~/.claude/:
 - clean: ['~']
 - link:
     ~/.ssh/config: ssh/config
@@ -20,6 +21,8 @@
     ~/.zsh/plugins: zsh/plugins
     ~/bin/code: bin/code
     ~/bin/coffee: bin/coffee
+    ~/.claude/settings.json: claude/settings.json
+    ~/.claude/statusline-command.sh: claude/statusline-command.sh
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
   - [git remote set-url origin git@github.com:jKiler/dotfiles.git, Setting ssh remote url]

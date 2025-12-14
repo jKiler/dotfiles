@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "gobuddy": {
+      "type": "stdio",
+      "command": "${HOME}/code/personal/gobuddy/bin/gobuddy",
+      "args": [],
+      "env": {}
+    }
+  }
+}

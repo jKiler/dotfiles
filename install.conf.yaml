@@ -23,6 +23,8 @@
     ~/bin/coffee: bin/coffee
     ~/.claude/settings.json: claude/settings.json
     ~/.claude/statusline-command.sh: claude/statusline-command.sh
+    ~/.claude/claude-wrapper.sh: claude/claude-wrapper.sh
+    ~/.claude/mcp.json: claude/mcp.json
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
   - [git remote set-url origin git@github.com:jKiler/dotfiles.git, Setting ssh remote url]
